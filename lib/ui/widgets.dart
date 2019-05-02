@@ -15,7 +15,7 @@ class Home extends StatefulWidget {
 }
 
 class HomeState extends State<Home> {
-  num radioValue = 0;
+  num radioValue = -1;  //-1 lets no radio button to be selected by default
   var activeColor;
   var planetName = "X";
   double _finalResult = 0.0;
